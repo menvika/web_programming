@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <!-- Обязательные метатеги -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Практическая работа 4</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        nav {
+            padding: 10px;
+            top: 0;
+            width: 100%;
+            background-color: #febbbb; 
+            position: fixed;
+            z-index: 1000;
+        }
+        nav ul {
+            list-style-type: none; 
+            padding: 0;
+            margin: 0;
+            display: flex; /*выравнивание в строку*/
+        }
+        nav ul li {
+            margin-right: 30px; 
+        }
+        nav ul li a {
+            color: black; 
+            text-decoration: none; 
+            font-size: 14px;
+        }
+        
+        nav ul li a.active {
+            font-weight: bold;
+            color: #FF4500; /*активный пункт-оранжевым*/
+        }
+        
+        h1 {
+            margin-top: 50px; 
+        }
+        .карусель {
+            height: 400pt;
+            width: 400pt;
+            margin: 0 auto;
+        }
+    </style>
+
+</head>
+<body>
+<!-- Панель навигации -->
+<nav>
+    <ul>
+        <li1><a>Навигация по котикам😻🫶🏻</a></li1>
+        <li><a href="#alpha">Котик Альфа</a></li>
+        <li><a href="#shy">Котик Стесняшка</a></li>
+        <li><a href="#angry">Злобный Котик</a></li>
+        <li><a href="#mini">Мини Котик</a></li>
+    </ul>
+</nav>
+
+
+
+
+   <h1>Практическая работа 4</h1>
+    <!-- Вариант 1: Bootstrap в связке с Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!--карусель -->
+    <div class="карусель">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="cat1.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="cat2.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="cat3.jpeg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Предыдущий</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Следующий</span>
+            </button>
+        </div>
+    </div>
+
+
+    <div>
+    <h3 id="alpha">Котик Альфа</h3>
+    <p>Котик Альфа — это настоящий лидер среди кошачьих. Он всегда находится в центре внимания и прекрасно знает, как привлечь внимание окружающих. Его уверенность в себе просто зашкаливает, и, кажется, что весь мир вращается вокруг него. Такой котик привык быть хозяином положения и нередко берет на себя роль "главного" в доме. Ему важно, чтобы его уважали, и он буквально требует к себе соответствующего отношения. Несмотря на свое лидерство, котик Альфа умеет быть ласковым, когда чувствует, что его статус не подвергается сомнению.</p>
+    <p>Этот тип кошки часто бывает независимым, но очень привязан к своему хозяину. Он демонстрирует силу характера, но в то же время проявляет заботу и внимание, особенно если чувствует, что его хвалят и признают его важность. Котик Альфа обожает комфортные места, где он может наблюдать за происходящим, и всегда будет стремиться занять самое лучшее место в доме. Он редко идет на компромиссы и предпочитает, чтобы все было так, как ему удобно.</p>
+
+    <h3 id="shy">Котик Стесняшка</h3>
+    <p>Котик Стесняшка — это нежное и робкое создание. Он всегда осторожен и предпочитает держаться в стороне от громких звуков и большого количества людей. Этот котик редко выходит на первый план, но в моменты, когда он чувствует себя в безопасности, может проявить невероятную ласковость и привязанность. Он часто прячется в уютных уголках, где никто не потревожит его покой.</p>
+    <p>Котики Стесняшки очень чувствительны к изменениям в своем окружении. Если что-то идет не так, они могут стать тревожными и предпочитают уединиться, чтобы успокоиться. Но если хозяин проявит терпение и любовь, то Стесняшка откроется и будет показывать свою привязанность. Это тот котик, который любит тихие вечера на коленях у хозяина, под звуки мурлыканья, создавая особенную атмосферу уюта. Он требует заботы и внимания, но не навязчив, и его привязанность всегда искренна.</p>
+
+    <h3 id="angry">Злобный Котик</h3>
+    <p>Злобный Котик — это настоящий хранитель своего личного пространства. Его взгляд всегда кажется полным подозрения, и он очень не любит, когда нарушают его границы. Этот котик может быть неприветливым к незнакомцам и даже своим хозяевам в моменты, когда его что-то беспокоит. Он всегда на стороже, и если ему не нравится ситуация, он может это выразить довольно резко — будь то шипение или даже легкий удар лапой.</p>
+    <p>Злобный котик очень независим. Он предпочитает делать все по-своему и не терпит давления. Это не значит, что он не может быть ласковым, но его расположение нужно заслужить. Он привязывается к хозяину, если тот проявляет уважение к его личным границам и настроению. Это тот котик, который ценит свободу и предпочитает независимость. Он может быть отличным защитником дома, ведь его чувствительность к окружающей среде заставляет его всегда быть начеку.</p>
+
+    <h3 id="mini">Мини Котик</h3>
+    <p>Мини Котик — это настоящая батарейка с безграничной энергией! Хотя его размер может быть невелик, его дух и желание двигаться компенсируют это с лихвой. Мини Котик всегда в движении: он бегает по дому, играется с игрушками и готов к приключениям в любое время дня. Этот котик способен быстро адаптироваться к новым условиям, но ему важно пространство для активных игр.</p>
+    <p>Несмотря на свою активность, Мини Котик обожает внимание. Он любит быть в центре событий, играть с хозяевами, гонять мячики или лазить по игровым комплексам. Он очень любознателен и может исследовать каждый уголок дома. Его игривость делает его любимцем семьи, особенно если у вас есть дети, которые могут поддерживать его активный образ жизни. Этот котик может быть крохотным, но его сердце полно энергии и радости, и он всегда готов поднять настроение своим задором.</p>
+    </div>
+    
+    <script>
+        const sections = document.querySelectorAll('h3');
+        const navLinks = document.querySelectorAll('nav ul li a'); 
+    
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                const id = entry.target.getAttribute('id');
+                const navLink = document.querySelector(`nav ul li a[href="#${id}"]`);
+    
+                if (entry.isIntersecting) {
+                    navLinks.forEach(link => link.classList.remove('active'));
+                    navLink.classList.add('active');// класс 'active' к текущей ссылке
+                }
+            });
+        }, {
+            rootMargin: '-50% 0px -50% 0px', // наблюдение, когда заголовок находится в центре экрана
+            threshold: 0
+        });
+    
+        sections.forEach(section => {
+            observer.observe(section);
+        });
+    </script>
+
+
+
+<!--всплыв сообщ-->
+    <button type="button" class="btn btn-primary" id="liveToastBtn">Показать лайв тосты</button>
+
+    <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+        <div id="liveToast" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <img src="cat4.gif" height="50pt" width="50pt" class="rounded me-2" alt="">
+                <strong class="me-auto">хапи хапи тостик</strong>
+                <small>только что</small>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Закрыть"></button>
+            </div>
+            <div class="toast-body">
+              Ура! Это toast (жаль несъедобный)...
+            </div>
+        </div>
+    </div>
+<!--группа кнопок-->
+    <div class="btn-group" role="group" aria-label="Basic outlined example">
+      <button type="button" id="but1" class="btn btn-outline-primary">интересно, что тут?</button>
+      <button type="button" id="but2" class="btn btn-outline-primary">а тут?</button>
+      <button type="button" id="but3" class="btn btn-outline-primary">ну это, наверно, уже не так интересно</button>
+    </div>
+    <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+      <div id="toast1" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true">
+          <div class="toast-header">
+              <img src="mops.gif" height="50pt" width="50pt" class="rounded me-2" alt="">
+              <strong class="me-auto">🍞🍞🍞</strong>
+              <small>только что</small>
+              <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Закрыть"></button>
+          </div>
+          <div class="toast-body">
+            Ура! Это тоже toast (но, к сожалению, опять несъедобный)...
+          </div>
+        </div>
+    </div>
+    <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+      <div id="toast2" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true">
+          <div class="toast-header">
+              <img src="cat5.gif" height="50pt" width="50pt" class="rounded me-2" alt="">
+              <strong class="me-auto">мы (делаем практику)</strong>
+              <small>только что</small>
+              <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Закрыть"></button>
+          </div>
+          <div class="toast-body">
+            тяжело.... 
+          </div>
+        </div>
+    </div>
+    <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+      <div id="toast3" class="toast hide" role="alert" aria-live="assertive" aria-atomic="true">
+          <div class="toast-header">
+              <img src="cat6.gif" height="50pt" width="50pt" class="rounded me-2" alt="">
+              <strong class="me-auto">не выдержали</strong>
+              <small>только что</small>
+              <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Закрыть"></button>
+          </div>
+          <div class="toast-body">
+            побежали кушать
+          </div>
+        </div>
+    </div>
+
+    <script>
+      //настройка тоста
+      function setupToast(triggerId, toastId) {
+          var toastTrigger = document.getElementById(triggerId);
+          var toastLiveExample = document.getElementById(toastId);
+
+          if (toastTrigger) {
+              toastTrigger.addEventListener('click', function () {
+                  var toast = new bootstrap.Toast(toastLiveExample);
+                  toast.show();
+              });
+          }
+        }
+      setupToast('liveToastBtn', 'liveToast');
+      setupToast('but1', 'toast1');
+      setupToast('but2', 'toast2');
+      setupToast('but3', 'toast3');
+  </script>
+
+ 
+</body>
+</html>

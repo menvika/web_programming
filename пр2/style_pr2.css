@@ -1,0 +1,59 @@
+img { 
+    width: 300px; 
+    height: 300px; 
+    border-radius: 50%;
+}
+.div3 {
+    text-align: center;
+  }
+  .img1{
+    background: url("https://i.ytimg.com/vi/YzVGzSTD1vE/maxresdefault.jpg") 50% / cover no-repeat;
+  }
+  .img2{
+    background: url("C:\Users\79263\Downloads\2024-09-24_11-16-58.png") 50% / cover no-repeat;
+  }
+  .img3{
+    background: url("C:\Users\79263\Downloads\2024-09-24_11-20-56.png") 50% / cover no-repeat;
+  }
+  .img4{
+    background: url("C:\Users\79263\Downloads\2024-09-24_11-25-37.png") 50% / cover no-repeat;
+  }
+  .img5{
+    background: url("C:\Users\79263\Downloads\2024-09-24_11-24-30.png") 50% / cover no-repeat;
+  }
+.div1 {
+    background-color: pink;
+    border-style: dashed;
+    text-align: center;
+    border-width: 3px;
+}
+.div2 {
+    background-color: rgb(228, 156, 247);
+    border-style: dashed;
+    text-align: center;
+    border-width: 3px;
+}
+div {
+    margin: 15px;
+}
+p {
+    font-size: 20pt;
+}
+h2 {
+    font-size: 30pt;
+}
+ul.menu{
+  padding: 5px;
+  margin-left: 5px;
+  margin-bottom: 20px;
+}
+ul.menu li{
+	display: inline; 
+    padding: 7px; 
+    border-radius: 20px;
+    background-color: rgb(228, 156, 247);
+}
+a {
+	color: black;
+	text-decoration: none;
+}

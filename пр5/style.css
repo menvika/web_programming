@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f2ece4;
+}
+
+.game-container {
+    background-color: white;
+    font-family: 'Rubik Bubbles', system-ui;
+    color: #2c2b2b;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-style: normal;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 70px 20px #a6b1d1;
+    text-align: center;
+    width: 420px; /* Установим фиксированную ширину для контейнера */
+}
+
+input {
+    padding: 12px 10px;
+    font-size: 18px;
+    margin-top: 10px;
+    border: 2px solid #a6b1d1;
+    border-radius: 0.8rem;
+    width: 100%;  /* Поле ввода теперь на всю ширину контейнера */
+    text-align: center;
+    box-sizing: border-box; /* Чтобы не выходило за границы */
+}
+
+button {
+    font-family: 'Rubik Bubbles', system-ui;
+    letter-spacing: 2px;
+    padding: 12px 20px;
+    font-size: 20px;
+    margin-top: 10px;
+    background-color: #a6b1d1;
+    color: #2c2b2b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Кнопки растягиваются на всю ширину */
+}
+
+button:hover {
+    background-color: #a6b1d1;
+}
+
+button:active {
+    background-color: #a6b1d1;
+}
+
+/* Стиль для Toast уведомлений */
+.toast {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    bottom: 30px;
+    left: 50%;
+    font-size: 17px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.toast.show {
+    visibility: visible;
+    opacity: 1;
+}
